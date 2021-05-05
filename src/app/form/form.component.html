@@ -1,0 +1,25 @@
+<div class="row">
+<input type="text" [(ngModel)]="firstName" placeholder="firstName" />
+<input type="text" [(ngModel)]="lastName" placeholder="lastName" />
+<input type="text" [(ngModel)]="PassedoutYear" placeholder="PassedoutYear" />
+</div>
+<hr />
+<button (click)="buttonClicked()"[disabled] ="!firstName||!lastName||!PassedoutYear">click</button>
+
+<div class="container">
+    <table class="table table-responsive">
+      <tr>
+        <th>firstName</th>
+        <th>lastName</th>
+        <th>PassedoutYear</th>
+      </tr>
+      <tr *ngFor="let row of rows">
+        <td>{{row.firstName}}</td>
+        <td>{{row.lastName}}</td>
+        <td>{{row.PassedoutYear}}</td>
+      </tr>
+    </table>
+    <div>
+  
+  
+   

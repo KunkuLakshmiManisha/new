@@ -1,0 +1,19 @@
+button{
+    width: 100px;
+    height:50px;
+    padding:5px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-left: 550px;
+}
+input{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+th{
+width:80px;
+font-family:'Times New Roman';
+color: red;
+}
